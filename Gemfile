@@ -9,14 +9,15 @@ gem 'rails', '3.2.1'
 #group :development, :test do gem 'sqlite3-ruby', :require => 'sqlite3'  end
 
 group :development do
-  gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails'
   gem 'sqlite3-ruby', :require => 'sqlite3'
 end
 
 group :test do
-  gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails'
   gem 'sqlite3-ruby', :require => 'sqlite3'
-  gem 'webrat', '0.7.1'
+  gem 'webrat'
+  gem 'spork'
 end
 
 # Gems used only for assets and not required
